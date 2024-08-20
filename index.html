@@ -479,7 +479,7 @@
                 <h1 class="text-3xl font-bold">Get In Touch</h1>
                 <p class="text-xl text-gray-500 md:w-1/2 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.  </p>
             </div>
-            <div class="md:mt-24 mt-10 grid grid-cols-1 md:grid-cols-3">
+            <div class="md:mt-24 mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="p-6 md:p-12 border rounded-xl md:space-y-4 space-y-2 ">
                     <div class="bg-[#BCED6D1A] space-y-4 p-10 rounded-xl">
                         <img src="./Images/Group 1171275317.png" alt="">
@@ -501,13 +501,38 @@
                         <p class="text-xl font-bold">152/1 Mohakhali Wireless Gate</p>
                     </div>
                 </div>
-                <div class="col-span-2">
+                <div class=" col-span-1 md:col-span-2 ">
                     <div class="grid grid-cols-1 md:grid-cols-2">
-                        <div>
-                            <label for="">Name</label>
-                            <input type="text" placeholder="your name">
+                        <div class="space-y-4 px-4">
+                            <label class="text-xl font-bold" for="">Your Name</label>
+                            <br>
+                            <input class="py-5 w-full pl-10 pr-28 bg-[#13131808] rounded-xl" type="text" placeholder="enter your full name">
+                        </div>
+                        <div class="space-y-4 px-4">
+                            <label class="text-xl font-bold" for="">Your Email</label>
+                            <br>
+                            <input class="py-5 w-full pl-10 pr-28 bg-[#13131808] rounded-xl" type="text" placeholder="enter your email">
                         </div>
 
+                        <div class="space-y-4 px-4">
+                            <label class="text-xl font-bold" for="">Subject</label>
+                            <br>
+                            <input class="py-5 w-full pl-10 pr-28 bg-[#13131808] rounded-xl" type="text" placeholder="enter your subject">
+                        </div>
+                        <div class="space-y-4 px-4">
+                            <label class="text-xl font-bold" for="">Phone Number</label>
+                            <br>
+                            <input class="py-5 w-full pl-10 pr-28 bg-[#13131808] rounded-xl" type="text" placeholder="enter your phone number">
+                        </div>
+
+
+                        <div class=" col-span-1 md:col-span-2 space-y-4 px-4">
+                            <label class="text-xl font-bold" for="">Message</label>
+                            <br>
+                            <input class="md:pb-80 md:pt-10 py-5 w-full pl-10 pr-28 bg-[#13131808] rounded-xl" type="text" placeholder="enter your phone number">
+                        </div>
+                        <button class=" md:col-span-2 bg-hocky-primary mx-4 mt-6 py-4 rounded-xl text-white text-xl font-bold">Send Message</button>
+                       
                     </div>
                 </div>
             </div>
