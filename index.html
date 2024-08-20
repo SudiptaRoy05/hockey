@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey</title>
+    <link rel="stylesheet" href="style.css">
 
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
@@ -28,7 +29,7 @@
                         clifford: '#da373d',
                         'hocky-primary': '#FF4240',
                         'hocky-secondery': '#49D293',
-                        'hocky-info':'#4C8DF1'
+                        'hocky-info': '#4C8DF1'
                     }
                 }
             }
@@ -85,7 +86,7 @@
         <!-- banner section  -->
         <div class="container mx-auto relative">
             <div class="carousel w-full lg:h-[550px] rounded-xl">
-                
+
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./Images/1.png" class="w-full rounded-xl " />
 
@@ -96,7 +97,7 @@
                 </div>
 
 
-               
+
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="./Images/2.png" class="w-full rounded-xl" />
 
@@ -105,7 +106,7 @@
                         <a href="#slide3" class="btn btn-circle bg-slate-950 text-white">❯</a>
                     </div>
                 </div>
-            
+
                 <div id="slide3" class="carousel-item relative w-full">
                     <img src="./Images/3.png" class="w-full rounded-xl" />
 
@@ -114,27 +115,31 @@
                         <a href="#slide1" class="btn btn-circle bg-slate-950 text-white">❯</a>
                     </div>
                 </div>
-                
+
             </div>
-            <div class="lg:w-1/3 w-full lg:absolute bottom-10 right-10 z-10 bg-slate-900 text-white py-10 px-8 rounded-xl space-y-4">
+            <div
+                class="lg:w-1/3 w-full lg:absolute bottom-10 right-10 z-10 bg-slate-900 text-white py-10 px-8 rounded-xl space-y-4">
                 <h3 class="text-2xl font-bold">Meet all the heroes from the field</h3>
                 <p class="text-gray-300">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
                     dolor. Purus urna in sit nullam proin. </p>
             </div>
 
-           
+
         </div>
     </header>
     <main class="container mx-auto lg:mt-28 mt-6">
         <!-- stat section  -->
-         <section>
+        <section>
             <div class="border-y-2 border-dashed lg:py-8 py-4 space-y-4 text-center">
                 <h1 class="text-3xl font-bold">Professional Hockeys Club</h1>
-                <p class="text-xl text-gray-500 md:w-1/2 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="text-xl text-gray-500 md:w-1/2 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing
+                    aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center">
-                <div class="space-y-4">
+                <div class=" space-y-4">
+
                     <div class="radial-progress text-hocky-primary" style="--value:87;" role="progressbar">87%</div>
+
                     <h4 class="text-2xl font-semibold">Prayer Facility</h4>
                     <p class="opacity-75">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
@@ -145,7 +150,7 @@
                 </div>
                 <div>
                     <div class="radial-progress text-warning" style="--value:90;" role="progressbar">90%</div>
-                    <<h4 class="text-2xl font-semibold">Senior Player</h4>
+                    <h4 class="text-2xl font-semibold">Senior Player</h4>
                     <p class="opacity-75">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
                 <div>
@@ -154,7 +159,55 @@
                     <p class="opacity-75">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
             </div>
-         </section>
+        </section>
+        <section class="my-10 lg:my-20">
+            <div class="border-y-2 border-dashed lg:py-8 py-4 space-y-4 text-center">
+                <h1 class="text-3xl font-bold">Program Sections</h1>
+                <p class="text-xl text-gray-500 md:w-1/2 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing
+                    aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6 ">
+                <div class="junior rounded-2xl">
+                    <div class="w-3/4 md:space-y-6 space-y-2 text-white md:pl-20 md:pt-36 md:pb-14  pt-5 pl-8 pb-4 ">
+                        <h3 class="md:text-3xl text-xl font-bold">Junior Program</h3>
+                        <p class="text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                            <button class="btn bg-hocky-primary text-white md:text-xl font-bold border-0 mb-3">Register Now!</button>
+                    </div>
+                </div>
+
+                <div class="Teenager rounded-2xl">
+                    <div class="w-3/4 md:space-y-6 space-y-2 text-white md:pl-20 md:pt-36 md:pb-14  pt-5 pl-8 pb-4">
+                        <h3 class="md:text-3xl text-xl font-bold">Teenager Program</h3>
+                        <p class="text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                            <button class="btn bg-hocky-primary text-white md:text-xl font-bold border-0 mb-3">Register Now!</button>
+                    </div>
+                </div>
+
+                <div class="Professional rounded-2xl lg:col-span-2">
+                    <div class="w-3/4 md:space-y-6 space-y-2 text-white md:pl-20 md:pt-36 md:pb-14 pt-5 pl-8 pb-4">
+                        <h3 class="md:w-1/2 md:text-3xl text-xl font-bold">Professional Program</h3>
+                        <p class="text-sm md:w-1/2">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                            <button class="btn bg-hocky-primary text-white md:text-xl font-bold border-0 mb-3">Register Now!</button>
+                    </div>
+                </div>
+                
+            </div>
+
+
+        </section>
+
+        <section class="mb-20">
+            <div class="border-y-2 border-dashed lg:py-8 py-4 space-y-4 text-center">
+                <h1 class="text-3xl font-bold">Our New Products</h1>
+                <p class="text-xl text-gray-500 md:w-1/2 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.  </p>
+            </div>
+        </section>
     </main>
 </body>
 
